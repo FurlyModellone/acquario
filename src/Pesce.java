@@ -12,5 +12,9 @@ public class Pesce {
     public String getColore(){
         return colore;
     }
+    public double getGrandezza(){
+        return grandezza;
+    }
+
 
 }
