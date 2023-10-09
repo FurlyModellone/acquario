@@ -15,6 +15,12 @@ public class Pesce {
     public double getGrandezza(){
         return grandezza;
     }
+    public void setGrandezza(double grandezza)throws Exception{
+        if(grandezza<=0){
+            throw new Exception("pesce inesistente");
+        }
+        this.grandezza=grandezza;
+    }
 
 
 }
