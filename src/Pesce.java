@@ -9,4 +9,8 @@ public class Pesce {
         this.colore=colore;
         this.grandezza=grandezza;
     }
+    public String getColore(){
+        return colore;
+    }
+
 }
